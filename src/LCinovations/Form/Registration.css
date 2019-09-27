@@ -1,0 +1,42 @@
+.registration {
+    font: normal 16px sans-serif;
+    color: #555;
+    background-color: #F3F3F3;
+    width: 30%;
+    position: relative;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.registration form input:focus {
+    outline: 0;
+    border: 2px solid #999;
+}
+
+.registration form input:not([type=radio]) {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 36% 0;
+}
+
+.registration form select {
+    padding: 10px;
+    border: 1px solid;
+}
+
+.radio {
+    display: grid;
+    padding: 0 100px;
+}
+
+.RegistrationButtons button {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+

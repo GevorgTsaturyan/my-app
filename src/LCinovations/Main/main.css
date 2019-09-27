@@ -1,0 +1,18 @@
+header {
+    height: 60px;
+    background: linear-gradient(rgb(131, 131, 131), rgb(255, 255, 255));
+    padding: 11px;
+    box-sizing: border-box;
+}
+
+header span a {
+    margin: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.5s
+}
+
+header span a:hover {
+    color: black;
+    font-size: 25px;
+}
